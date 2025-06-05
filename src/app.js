@@ -5,10 +5,10 @@ import cors from 'cors';
 const app = express();
 
 app.use(
-  cors({
-    origin: 'https://recipe-ai-chatbot.netlify.app/',
-    credentials: true,
-  }),
+	cors({
+		origin: 'https://recipe-ai-chatbot.netlify.app',
+		credentials: true,
+	}),
 );
 
 app.use(express.json());
