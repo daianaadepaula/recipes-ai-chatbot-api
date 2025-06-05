@@ -1,0 +1,10 @@
+@baseUrl = http://localhost:3001/api/recipes
+
+###
+POST {{baseUrl}}/question
+Content-Type: application/json
+
+{
+	"question": "Frango Assado"
+}
+
